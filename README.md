@@ -79,13 +79,6 @@ echo $ZSH_VERSION      # versão do zsh (ex.: 5.9)
 - `Ctrl+R` abre a busca fuzzy no histórico — `fzf`.
 - `z parte-do-caminho` pula pra pastas usadas com frequência — `zoxide`.
 
-## Nota de honestidade
-
-Se o objetivo for **só** a sugestão de comandos em cinza, o
-[`ble.sh`](https://github.com/akinomyoga/ble.sh) resolve no próprio Bash sem
-trocar de shell. Este projeto vale a pena quando você quer o **ecossistema**
-completo do Oh My Zsh (temas, dezenas de plugins, a mesma experiência do
-Mac/Linux).
 
 ## Créditos
 
