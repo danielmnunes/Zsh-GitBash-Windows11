@@ -1,4 +1,4 @@
-# Zsh + Oh My Zsh no Git Bash (Windows, sem WSL)
+# Zsh + Oh My Zsh no Git Bash Windows 11
 
 Scripts para ter um **Zsh de verdade** — com Oh My Zsh, plugins e ferramentas
 modernas de linha de comando — rodando **nativamente no Windows**, dentro do
