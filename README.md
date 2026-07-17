@@ -79,7 +79,6 @@ echo $ZSH_VERSION      # versão do zsh (ex.: 5.9)
 - `Ctrl+R` abre a busca fuzzy no histórico — `fzf`.
 - `z parte-do-caminho` pula pra pastas usadas com frequência — `zoxide`.
 
-
 ## Créditos
 
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
