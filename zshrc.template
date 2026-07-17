@@ -1,0 +1,22 @@
+# Template de ~/.zshrc
+# Copie o conteudo para o seu HOME do Git Bash como ~/.zshrc
+# (o instalador install-zsh-gitbash.ps1 ja faz isso; este e so a referencia)
+
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+
+# Plugins do Oh My Zsh.
+# zsh-autosuggestions      = sugestao em cinza do comando anterior (Tab ou -> aceita)
+# zsh-syntax-highlighting  = colore o comando enquanto voce digita
+# IMPORTANTE: zsh-syntax-highlighting tem que ser SEMPRE o ultimo da lista.
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+source "$ZSH/oh-my-zsh.sh"
+
+# Corrige encoding UTF-8 no Windows (acentos, emojis, box-drawing dos temas)
+chcp.com 65001 > /dev/null 2>&1
+
+# --- Suas customizacoes ---
+# alias gs="git status"
+# alias gd="git diff"
